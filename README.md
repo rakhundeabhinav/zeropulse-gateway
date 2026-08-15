@@ -7,8 +7,6 @@
 
 > **ZeroPulse** is a specialized Zero-Trust IoMT (Internet of Medical Things) security gateway designed to protect clinical infrastructure against ransomware, unauthorized payload tampering, and anomalous packet floods. Built with real-time heuristic Shannon Entropy inspection and dynamic blast-radius micro-isolation.
 
-🔗 **Live Public SOC Console:** [https://court-festivals-radar-packages.trycloudflare.com](https://court-festivals-radar-packages.trycloudflare.com)
-
 ---
 
 ## 🌟 Key Capabilities
