@@ -21,8 +21,6 @@
 
 ---
 
-## 🏗️ Architecture Flow
-
 ## 🏗️ Architecture
 
 ```text
