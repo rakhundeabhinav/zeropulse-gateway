@@ -16,6 +16,43 @@
 * **Autonomous Blast-Radius Containment:** Instant hardware quarantine protocol that revokes network ACLs for compromised nodes without manual intervention.
 * **Full-Duplex SOC Telemetry Dashboard:** WebSocket-powered event streaming that monitors telemetry, anomalous spikes, and quarantine statuses simultaneously.
 * **Adaptive Rate Limiting:** Sliding-window burst analyzer to detect unauthorized network scanning and DoS attempts on IoMT nodes.
+  
+---
+
+## 🖥️ Live Demonstration
+
+ZeroPulse was tested using simulated IoMT devices under both normal and malicious traffic conditions.
+
+### 🟢 1. Normal IoMT Telemetry
+
+Clean device continuously sends clinical telemetry through the gateway.
+
+![Clean Telemetry](screenshots/01-clean-telemetry.png)
+
+### 🔐 2. Gateway Telemetry Ingestion
+
+The FastAPI gateway receives and validates telemetry requests in real time.
+
+![Gateway Logs](screenshots/02-gateway-logs.png)
+
+### 🚨 3. Attack Simulation
+
+Simulated ransomware-like high-entropy payload and rapid packet-burst/DoS traffic are generated against the gateway.
+
+![Attack Simulation](screenshots/03-attack-simulation.png)
+
+### ⚠️ 4. Threat Detection
+
+The SOC dashboard detects abnormal traffic and generates a real-time security alert.
+
+![Threat Detection](screenshots/04-threat-detection.png)
+
+### 🔒 5. Automatic Device Quarantine
+
+The compromised IoMT node is automatically quarantined while the SOC dashboard records the security events.
+
+![Device Quarantine](screenshots/05-device-quarantine.png)
+
 
 ---
 
